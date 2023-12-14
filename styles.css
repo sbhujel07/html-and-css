@@ -1,0 +1,60 @@
+/* 3.1 Reset Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 3.2 Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* 3.3 Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* 3.4 Navigation Bar */
+.float-navigation {
+    overflow: hidden;
+}
+
+.float-navigation a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* 3.5 Navigation Links */
+nav.float-navigation a {
+    padding: 10px;
+}
+
+/* 3.6 Main Content */
+main {
+    padding: 20px;
+}
+
+/* 3.7 Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* 3.8 Responsive Design */
+@media (max-width: 600px) {
+    nav.float-navigation a {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
